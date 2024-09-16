@@ -1,0 +1,50 @@
+/* styles.css */  
+
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f4f4f4;  
+    color: #251c1c;  
+    padding: 20px;  
+}  
+
+#resume-editor { 
+    width: 500px; 
+    height:650px;
+    background:linear-gradient(rgb(236, 141, 157), rgb(250, 234, 6));  
+    padding: 20px;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(65, 59, 59, 0.1);  
+}  
+
+h1, h2, h3 {  
+    margin: 0;  
+    color: white;
+}  
+
+button {  
+    margin-top: 20px;  
+    padding: 10px 15px; 
+    border-radius: 10px;
+    box-shadow: 0 0 15px  rgb(233, 53, 83); 
+    font-size: 18px;  
+    cursor: pointer; 
+    color: rgb(253, 249, 249);
+    background-color: rgb(12, 12, 12); 
+}  
+
+button:hover{
+    background-color: rgb(192, 48, 72);
+    color: rgb(10, 10, 10);
+}
+
+button:focus {  
+    outline: none;  
+}  
+
+[contenteditable="true"] {  
+    border: solid black;  
+    padding: 5px;  
+    border-radius: 10px;  
+    margin-bottom: 10px;  
+    
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Editable Resume</title>  
+    <link rel="stylesheet" href="styles.css">  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>  
+</head>  
+<body>  
+    <div id="resume-editor">  
+        <h1 contenteditable="true" id="name">Name here</h1>  
+       
+        <p contenteditable="true" id="email">Email: john.doe@example.com</p>  
+        <p contenteditable="true" id="phone">Phone: (123) 456-7890</p>  
+
+          
+
+        <h3>Education</h3>  
+        <div id="education" contenteditable="true">  
+            <ul>  
+                <li>Bachelor of Science in Computer Science, University X (2013 - 2017)</li>  
+            </ul>  
+        </div> 
+        
+        <h3>Experience</h3>  
+        <div id="experience" contenteditable="true">  
+            <ul>  
+                <li>Company A - Web Developer (2019 - Present)</li>  
+                <li>Company B - Frontend Developer (2017 - 2019)</li>  
+            </ul>  
+        </div>
+
+        <h3>Skills</h3>  
+        <div id="skills" contenteditable="true">  
+            <ul>  
+                <li>JavaScript</li>  
+                <li>TypeScript</li>  
+                <li>React</li>  
+                <li>HTML & CSS</li>  
+            </ul>  
+        </div>  
+
+        <button id="download">Download as PDF</button>  
+        <button id="share">Share Resume</button>  
+    </div>  
+
+    <script src="script.js"></script> <!-- Make sure the TypeScript file is transpiled to JavaScript -->  
+</body>  
+</html>
